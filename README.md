@@ -20,7 +20,7 @@
 <p style="font-size: 14px;">   关键词： mysql binlog parser / real-time / queue&topic </p>
 <p style="font-size: 14px;"> </p>
 <h2>工作原理</h2>
-<p><img width="590" src="http://dl.iteye.com/upload/attachment/0080/3107/c87b67ba-394c-3086-9577-9db05be04c95.jpg" alt="" height="273"></p>
+<p><img width="590" src="http://farm8.staticflickr.com/7234/7312124068_e6ecbf9e2a_b.jpg" alt="" height="273"></p>
 
 5  java spi使用示例
 测试入口：
