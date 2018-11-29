@@ -10,7 +10,17 @@
     2.jdbc    jdbc4.0以前， 开发人员还需要基于Class.forName("xxx")的方式来装载驱动，jdbc4也基于spi的机制来发现驱动提供商了，可以通过META-INF/services/java.sql.Driver文件里指定实现类的方式来暴露驱动提供者.
     
 4 SPI是如何使用
-<p><img src="http://farm8.staticflickr.com/7234/7312124068_e6ecbf9e2a_b.jpg" alt=""></p>
+<img src="http://farm8.staticflickr.com/7234/7312124068_e6ecbf9e2a_b.jpg">
+
+<h1>项目介绍</h1>
+<p style="font-size: 14px;">   名称：canal [kə'næl]</p>
+<p style="font-size: 14px;">   译意： 水道/管道/沟渠 </p>
+<p style="font-size: 14px;">   语言： 纯java开发</p>
+<p style="font-size: 14px;">   定位： 基于数据库增量日志解析，提供增量数据订阅&amp;消费，目前主要支持了mysql</p>
+<p style="font-size: 14px;">   关键词： mysql binlog parser / real-time / queue&topic </p>
+<p style="font-size: 14px;"> </p>
+<h2>工作原理</h2>
+<p><img width="590" src="http://dl.iteye.com/upload/attachment/0080/3107/c87b67ba-394c-3086-9577-9db05be04c95.jpg" alt="" height="273"></p>
 
 5  java spi使用示例
 测试入口：
