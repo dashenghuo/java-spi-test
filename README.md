@@ -10,7 +10,7 @@
     2.jdbc    jdbc4.0以前， 开发人员还需要基于Class.forName("xxx")的方式来装载驱动，jdbc4也基于spi的机制来发现驱动提供商了，可以通过META-INF/services/java.sql.Driver文件里指定实现类的方式来暴露驱动提供者.
     
 4 SPI是如何使用
-<p><img src="http://farm8.staticflickr.com/7234/7312124068_e6ecbf9e2a_b.jpg" alt=""><br>
+<p><img src="http://farm8.staticflickr.com/7234/7312124068_e6ecbf9e2a_b.jpg" alt=""></p>
 
 5  java spi使用示例
 测试入口：
